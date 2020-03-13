@@ -1,0 +1,13 @@
+{"manifest_version":2,
+"name":"Detect Sentiment",
+"version":"1.0",
+"description":"Hate Message",
+"browser_action":
+{
+    "default_popup":"popup.html"
+},
+"background":{
+    "scripts":["eventPage.js"]
+},
+"permissions":["storage","notifications","contextMenus","http://127.0.0.1:8000/sentiment"]
+}
